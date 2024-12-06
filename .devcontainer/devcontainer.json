@@ -2,12 +2,14 @@
 {
     // Name this configuration
     "name": "Codespace for Skills!",
-    "image": "ghcr.io/devcontainers/features/rust:1",
     "customizations": {
         "vscode": {
             "extensions": [
                 "GitHub.copilot"
             ]
         }
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/rust:1": {}
     }
 }
