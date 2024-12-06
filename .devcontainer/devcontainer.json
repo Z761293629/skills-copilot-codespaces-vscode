@@ -2,9 +2,7 @@
 {
     // Name this configuration
     "name": "Codespace for Skills!",
-    "ghcr.io/devcontainers/features/rust:1": {
-    
-  },
+    "image": "ghcr.io/devcontainers/features/rust:1",
     "customizations": {
         "vscode": {
             "extensions": [
